@@ -1,6 +1,26 @@
-## メッセージアクションのオブジェクト例
+# appendix5_ボタンにアクションを設定しよう
 
-### メッセージオブジェクト
+## ドキュメントリンク
+
+[【参考】アクション | LINE Developers](https://developers.line.biz/ja/docs/messaging-api/actions/)
+
+[【参考】Messaging APIリファレンス「メッセージアクション」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#message-action)
+
+[【参考】Messaging APIリファレンス「ポストバックアクション」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#postback-action)
+
+[【参考】Messaging APIリファレンス「日時選択アクション」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#datetime-picker-action)
+
+[【参考】Messaging APIリファレンス「位置情報アクション」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#location-action)
+
+[【参考】Messaging APIリファレンス「URIアクション」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#uri-action)
+
+[【参考】LINE URLスキームでLINEの機能を使う | LINE Developers](https://developers.line.biz/ja/docs/line-login/using-line-url-scheme/)
+
+## オブジェクトの例
+
+### メッセージアクションのオブジェクト例
+
+#### メッセージオブジェクト
 
 ```javascript
 {
@@ -30,7 +50,7 @@
 }
 ```
 
-### アクションオブジェクト
+#### アクションオブジェクト
 
 ```javascript
 {
@@ -40,7 +60,7 @@
 }
 ```
 
-### イベントオブジェクト
+#### イベントオブジェクト
 
 ```json
 {
@@ -65,9 +85,9 @@
 }
 ```
 
-## ポストバックアクションのオブジェクト例
+### ポストバックアクションのオブジェクト例
 
-### メッセージオブジェクト
+#### メッセージオブジェクト
 
 ```javascript
 {
@@ -98,7 +118,7 @@
 }
 ```
 
-### アクションオブジェクト
+#### アクションオブジェクト
 
 ```javascript
 {
@@ -109,7 +129,7 @@
 }
 ```
 
-### イベントオブジェクト
+#### イベントオブジェクト
 
 ```json
 {
@@ -131,9 +151,9 @@
 }
 ```
 
-## 日時選択アクションのオブジェクト例
+### 日時選択アクションのオブジェクト例
 
-### メッセージオブジェクト
+#### メッセージオブジェクト
 
 ```javascript
 {
@@ -154,7 +174,7 @@
 }
 ```
 
-### アクションオブジェクト
+#### アクションオブジェクト
 
 ```javascript
 {
@@ -165,7 +185,7 @@
 }
 ```
 
-### イベントオブジェクト
+#### イベントオブジェクト
 
 ```json
 {
@@ -190,9 +210,9 @@
 }
 ```
 
-## イベントを送信しないアクションのオブジェクト例
+### イベントを送信しないアクションのオブジェクト例
 
-### 位置情報アクション
+#### 位置情報アクション
 
 ```javascript
 {
@@ -201,7 +221,7 @@
 }
 ```
 
-### URIアクション
+#### URIアクション
 
 ```javascript
 {

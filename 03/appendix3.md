@@ -1,6 +1,30 @@
-## 単方向メッセージのオブジェクト例
+# appendix3_LINEにメッセージを送ってみよう
 
-### テキストメッセージ
+## ドキュメントリンク
+
+[【参考】メッセージタイプ | LINE Developers](https://developers.line.biz/ja/docs/messaging-api/message-types/)
+
+[【参考】メッセージを送信する | LINE Developers](https://developers.line.biz/ja/docs/messaging-api/sending-messages/)
+
+[【参考】Messaging APIリファレンス「プッシュメッセージを送る」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#send-push-message)
+
+[【参考】Messaging APIリファレンス「ブロードキャストメッセージを送る」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#send-broadcast-message)
+
+[【参考】Messaging APIリファレンス「テキストメッセージ」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#text-message)  
+
+[【参考】Messaging APIリファレンス「画像メッセージ」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#image-message)
+
+[【参考】Messaging APIリファレンス「位置情報メッセージ」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#location-message)
+
+[【参考】Messaging APIリファレンス「テンプレートメッセージ」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#template-messages)
+
+[【参考】Messaging APIリファレンス「クイックリプライ」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#quick-reply)
+
+## オブジェクトの例
+
+### 単方向メッセージのオブジェクト例
+
+#### テキストメッセージ
 
 ```javascript
 {
@@ -16,7 +40,7 @@
 }
 ```
 
-### 画像メッセージ
+#### 画像メッセージ
 
 ```javascript
 {
@@ -26,7 +50,7 @@
 }
 ```
 
-### 位置情報メッセージ
+#### 位置情報メッセージ
 
 ```javascript
 {
@@ -38,9 +62,9 @@
 }
 ```
 
-## 双方向メッセージのオブジェクト例
+### 双方向メッセージのオブジェクト例
 
-### ボタンテンプレート
+#### ボタンテンプレート
 
 ```javascript
 {
@@ -70,7 +94,7 @@
 }
 ```
 
-### 画像カルーセルテンプレート
+#### 画像カルーセルテンプレート
 
 ```javascript
 {
@@ -99,7 +123,7 @@
 }
 ```
 
-## クイックリプライのオブジェクト例
+### クイックリプライのオブジェクト例
 
 ```javascript
 {

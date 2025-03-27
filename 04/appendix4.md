@@ -1,6 +1,18 @@
-## イベント情報とイベントオブジェクト
+# appendix4_Webhookでイベントを受け取ろう
 
-### イベント情報の構造
+## ドキュメントリンク
+
+[【参考】メッセージ（Webhook）を受信する | LINE Developers](https://developers.line.biz/ja/docs/messaging-api/receiving-messages/)
+
+[【参考】Messaging APIリファレンス「応答メッセージを送る」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#send-reply-message)
+
+[【参考】Messaging APIリファレンス「プロフィール情報を取得する」 | LINE Developers](https://developers.line.biz/ja/reference/messaging-api/#get-profile)
+
+## オブジェクトの例
+
+### イベント情報とイベントオブジェクト
+
+#### イベント情報の構造
 
 ```json
 {
@@ -13,7 +25,7 @@
 }
 ```
 
-### メッセージイベントのオブジェクト例
+#### メッセージイベントのオブジェクト例
 
 ```json
 {
@@ -38,7 +50,7 @@
 }
 ```
 
-### フォローイベントのオブジェクト例
+#### フォローイベントのオブジェクト例
 
 ```json
 {
@@ -60,7 +72,7 @@
 }
 ```
 
-### ポストバックイベントのオブジェクト例
+#### ポストバックイベントのオブジェクト例
 
 ```json
 {
