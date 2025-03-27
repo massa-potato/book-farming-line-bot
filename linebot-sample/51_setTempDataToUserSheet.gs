@@ -8,10 +8,10 @@
 */
 function setTempDataToUserSheet(userId, param, targetCol) {
   
-    const userSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('ユーザー情報');
-    const userIdsList = userSheet.getRange(2, 1, userSheet.getLastRow(), 1).getValues().flat();
-  
-    const targetRow = userIdsList.indexOf(userId) + 2;
-  
-    userSheet.getRange(targetRow, targetCol).setValue(param);
-  }
+  const userSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('ユーザー情報');
+  const userIdsList = userSheet.getRange(2, 1, userSheet.getLastRow(), 1).getValues().flat();
+
+  const targetRow = userIdsList.indexOf(userId) + 2;
+
+  userSheet.getRange(targetRow, targetCol).setValue(param);
+}

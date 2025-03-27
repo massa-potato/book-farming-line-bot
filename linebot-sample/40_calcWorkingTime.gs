@@ -7,9 +7,9 @@
 */
 function calcWorkingTime(start, end) {
 
-    const diff = end - start;
-    if(diff <= 0) return 0;
-  
-    const workingMinutes = Math.floor(diff / (60*1000));
-    return workingMinutes;
-  }
+  const diff = end - start;
+  if(diff <= 0) return 0;
+
+  const workingMinutes = Math.floor(diff / (60*1000));
+  return workingMinutes;
+}

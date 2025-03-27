@@ -5,10 +5,10 @@
 * @param {Object} data - ログ出力するデータオブジェクト
 */
 function outputLog(data) {
-    const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('logs');
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('logs');
 
-    sheet.appendRow([
-        new Date(), 
-        JSON.stringify(data)
-    ]);
+  sheet.appendRow([
+      new Date(), 
+      JSON.stringify(data)
+  ]);
 }

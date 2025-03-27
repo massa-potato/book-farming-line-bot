@@ -6,12 +6,12 @@
 */
 function setDataToKirokuSheet(data) {
 
-    const kirokuSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('作業記録');
+  const kirokuSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('作業記録');
+
+  data.pop();
+  const workingTime = calcWorkingTime(data[3], data[4]);
+  const timestamp = new Date();
+  data.push(workingTime, timestamp)
   
-    data.pop();
-    const workingTime = calcWorkingTime(data[3], data[4]);
-    const timestamp = new Date();
-    data.push(workingTime, timestamp)
-    
-    kirokuSheet.appendRow(data);  
-  }
+  kirokuSheet.appendRow(data);  
+}
