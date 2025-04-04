@@ -1,7 +1,9 @@
+/**
+* 作業記録ボタンテンプレートを送信する関数
+* 
+* @param {string} replyToken - リプライトークン
+*/
 function sendSagyokirokuButton(replyToken) {
-  
-  const imageUrl = 'https://raw.githubusercontent.com/massa-potato/book-farming-line-bot/refs/heads/main/picture/01.jpg';
-
   const actions = [
     {
       type: 'postback',
@@ -24,7 +26,7 @@ function sendSagyokirokuButton(replyToken) {
       altText: '作業記録ボタンテンプレート',
       template: {
         type: 'buttons',
-        thumbnailImageUrl: imageUrl,
+        thumbnailImageUrl: 'https://raw.githubusercontent.com/massa-potato/book-farming-line-bot/refs/heads/main/picture/01.jpg',
         title: '作業を記録する',
         text: '使用した作業機を選択してください。',
         actions: actions
