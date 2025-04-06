@@ -12,7 +12,7 @@ function doPost(e) {
 
 function outputLog(data) {
     // (2-1)ログ保存用のシートを取得
-    const sheet = SpreadsheetApp.getActiveSheet();
+    const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('シート1');
 
     // (2-2)ログを出力
     sheet.appendRow([
