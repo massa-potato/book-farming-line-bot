@@ -15,18 +15,18 @@ function sendBroadcastMessage() {
 
   // (4)リクエストヘッダーとボディ
   const headers = {
-      'Content-Type': 'application/json',
-      Authorization: 'Bearer ' + token
+    'Content-Type': 'application/json',
+    Authorization: 'Bearer ' + token
   };
   const body = {
-      messages: messages
+    messages: messages
   };
 
   // (5)リクエストヘッダーとボディをまとめる
   const params = {
-      method: method,
-      headers: headers,
-      payload: JSON.stringify(body)
+    method: method,
+    headers: headers,
+    payload: JSON.stringify(body)
   };
 
   // (6)リクエスト送信

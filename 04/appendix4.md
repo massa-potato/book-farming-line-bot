@@ -16,12 +16,12 @@
 
 ```json
 {
-    "destination": "xxxx",
-    "events": [
-        {
-            // イベントオブジェクト（内容は省略）
-        }
-    ]
+  "destination": "xxxx",
+  "events": [
+    {
+        // イベントオブジェクト（内容は省略）
+    }
+  ]
 }
 ```
 
